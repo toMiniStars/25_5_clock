@@ -77,7 +77,7 @@ function warning() {
 function buzzer() {
   if (timer === 0) {
     const beepSound = new Audio(
-      "https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
+      "https://github.com/toMiniStars/25_5_clock/blob/main/beep.mp3"
     );
     beepSound.play();
   }
